@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div class="nav-logo border">
+                <div id="logo"><a href="" target="_main"><img src ="/Amazonlogo.png" ></a></div>
+            </div>
+
+            <div class="nav-loc">
+                <p id="add-1">Deliever to</p>
+                <div class="loc-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>India</p>
+                </div>
+            </div>
+
+            <div class="nav-searchbar">
+                <select name="All">
+                    <option value="All Products">All</option>
+                    <option value="Arts & Crafts">Arts & Crafts</option>
+                    <option value="Automotives">Automotives</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Beauty & Personal care">Beauty & Personal care</option>
+                    <option value="Cleanliness & Hygiene">Cleanliness & Hygiene</option>
+                    <option value="Toys">Toys</option>
+                    <option value="Clothes">Clothes</option>
+                    <option value="Kindle store">Kindle store</option>
+                    <option value="Accessories">Accessories</option>
+                </select>
+                <input class= "search-input" type="text" placeholder="&nbsp;&nbsp;&nbsp;Search Amazon">
+                <div id="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div> 
+             </div>
+        
+             <div class="language">
+                <div id="flag-icon">
+                    <img src="/flag-icon.png" alt="flag-icon">
+                </div>
+                <div id="dropdown">
+                    <select>
+                        <option value="English">EN</option>
+                        <option value="Hindi">HN</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="nav-sign-in">
+                <p><span>Hello, sign in</span></p>
+                <div id="line-2">
+                    <select>
+                        <option value="Accounts & Lists">Accounts & Lists</option>              
+                    </select>
+                </div>
+            </div>
+
+            <div class="return-order">
+                <p><span>Returns</span></p>
+                <div id="line-2">
+                    <p>& Orders</p>
+                </div>
+            </div>
+
+            <div class="nav-cart">
+                <div id="cart-logo">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div id="cart">
+                    <p>cart</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="navmenu-bar">
+                <div id="initial-blank">
+
+                </div>
+                <div id="all-menu">
+                    <i class="fa-solid fa-bars"></i>
+                    <p>All</p>
+                    
+                </div>
+                
+                <div id="option-menubar">
+                    <div class="menu-item"><p><a href="">Amazon Haul</a></p></div>
+                    <div class="menu-item"><p><a href=""><select><option value="Medical Care">Medical Care</option></select></a></p></div>
+                    <div class="menu-item"><p><a href="">Bestsellers</a></p></div>
+                    <div class="menu-item"><p><a href="">Amazon Basics</a></p></div>
+                    <div class="menu-item"><p><a href=""><select><option value="Books">Books</option></select></a></p></div>
+                    <div class="menu-item"><p><a href="">New Releases</a></p></div>
+                    <div class="menu-item"><p><a href="">Registry</a></p></div>
+                    <div class="menu-item"><p><a href="">Today's Deals</a></p></div>
+                    <div class="menu-item"><p><a href=""><select><option value="Gift Cards">Gift Cards</option></select></a></p></div>
+                    <div class="menu-item"><p><a href="">Smart Home</a></p></div>
+                    <div class="menu-item"><p><a href="">Groceries</a></p></div>
+                    <div class="menu-item"><p><a href="">Prime</a></p></div>
+                    <div class="menu-item"><p><a href="">Customer Service</a></p></div>
+                </div>
+
+                <div>
+
+                </div>
+        </div>
+    </header>
+
+    <main>
+     <div class="hero_section">
+        <div id="Hero_message">
+             <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+
+    <div class="card_layout">
+        <div class="card_layout_2">
+            <!-- first image box -->
+            <div class="card_instance">
+                <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                 <div id="card_header">
+                    <h2>Shop for your home essentials</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('home_esse_1.png');"><p>Cleaning Tools</p></div>
+                     <div id="img" style= "background-image: url('home_esse_2.png');"><p>Home Storage</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('home_esse_3.png');"><p>Home Decor</p></div>
+                     <div id="img" style= "background-image: url('home_esse_4.png');"><p>Bedding</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>Discover more in Home</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                <div id="card_header">
+                    <h2>Refresh Your Space</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('dining.png');"><p>Dining</p></div>
+                     <div id="img" style= "background-image: url('home_1.png');"><p>Home</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('kitchen.png');"><p>Kitchen</p></div>
+                     <div id="img" style= "background-image: url('health_beauty.png');"><p>Health & Beauty</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See more</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                <div id="card_header">
+                    <h2>New home arrivals under $50</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('home_arrivals_1.png');"><p>Kitchen & Dining</p></div>
+                     <div id="img" style= "background-image: url('home_arrivals_2.png');"><p>Home Improvement</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('home_arrivals_3.png');"><p>Decor</p></div>
+                     <div id="img" style= "background-image: url('home_arrivals_4.png');"><p>Bedding & BAth</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>Shop the latest from Home</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_layout_2">
+            <div class="card_instance">
+                <div id="card_header">
+                    <h2>Fashion trends you like</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('dresses.png');"><p>Dresses</p></div>
+                     <div id="img" style= "background-image: url('knits.png');"><p>Knits</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('jackets.png');"><p>Jackets</p></div>
+                     <div id="img" style= "background-image: url('jewellery.png');"><p>Jewelry</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                 <div id="card_header">
+                    <h2>Easy Updates for Elevated Spaces</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('baskets_hampers.png');"><p>Baskets & Hampers</p></div>
+                     <div id="img" style= "background-image: url('hardware.png');"><p>Hardware</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('accent_furniture.png');"><p>Accent funiture</p></div>
+                     <div id="img" style= "background-image: url('wallpapers_paints.png');"><p>Wallpaper & Paint</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                 <div id="card_header">
+                    <h2>Top Categories in Kitchen Appliances</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('cooker.png');"><p>Cooker</p></div>
+                     <div id="img" style= "background-image: url('coffee_img.png');"><p>Coffee</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('pots.png');"><p>Pots & Pans</p></div>
+                     <div id="img" style= "background-image: url('kettles.png');"><p>Kettles</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals in Kitchen appliances</a>
+                </div>
+            </div>
+        <div class="card_instance">
+            <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+        </div>
+    </div>
+
+    <!-- Long spanning div -->
+
+    <div class="long_img">
+        <div id="title_block"><h2>Top Picks for India</h2></div>
+        <div class="img_block">
+             <div id="long_boximg_1" style="background-image: url('long_box_1.png');"></div>
+             <div id="long_boximg_2" style="background-image: url('long_box_2.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_3.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_4.png');"></div>
+             <div id="long_boximg_5" style="background-image: url('long_box_5.png');"></div>
+             <div id="long_boximg_6" style="background-image: url('long_box_6.png');"></div>
+        </div>
+    </div>
+
+    <!-- Long image div2 -->
+
+    <div class="long_img">
+        <div id="title_block"><h2>Best Sellers in Sports & Outdoors</h2></div>
+        <div class="img_block">
+             <div class="long_box_2" id="long_boximg_21" style="background-image: url('LONG_BOX_2_1.png');"></div>
+             <div class="long_box_2" id="long_boximg_22" style="background-image: url('LONG_BOX_2_2.png');"></div>
+             <div class="long_box_2" id="long_boximg_23" style="background-image: url('LONG_BOX_2_3.png');"></div>
+             <div class="long_box_2" id="long_boximg_24" style="background-image: url('LONG_BOX_2_4.png');"></div>
+             <div class="long_box_2" id="long_boximg_25" style="background-image: url('LONG_BOX-2_5.png');"></div>
+             <div class="long_box_2" id="long_boximg_26" style="background-image: url('LONG_BOX_2_6.png');"></div>
+        </div>
+    </div>
+    
+    <!-- another black card layout instance section -->
+    <div class="card_layout_outer3">    
+       <div class="card_layout_2">
+            <div class="card_instance">
+                <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                 <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                 <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+            <div class="card_instance">
+                <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Long image div3 -->
+
+    <div class="long_img">
+        <div id="title_block"><h2>Top Picks for India</h2></div>
+        <div class="img_block">
+             <div id="long_boximg_1" style="background-image: url('long_box_1.png');"></div>
+             <div id="long_boximg_2" style="background-image: url('long_box_2.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_3.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_4.png');"></div>
+             <div id="long_boximg_5" style="background-image: url('long_box_5.png');"></div>
+             <div id="long_boximg_6" style="background-image: url('long_box_6.png');"></div>
+        </div>
+    </div>
+
+    <!-- Long image div4 -->
+
+    <div class="long_img">
+        <div id="title_block"><h2>Top Picks for India</h2></div>
+        <div class="img_block">
+             <div id="long_boximg_1" style="background-image: url('long_box_1.png');"></div>
+             <div id="long_boximg_2" style="background-image: url('long_box_2.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_3.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_4.png');"></div>
+             <div id="long_boximg_5" style="background-image: url('long_box_5.png');"></div>
+             <div id="long_boximg_6" style="background-image: url('long_box_6.png');"></div>
+        </div>
+    </div>
+
+    <!-- another black card layout instance section -->
+    <div class="card_layout_outer3">    
+       <div class="card_layout_2">
+            <div class="card_instance">
+                <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                 <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                 <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+            <div class="card_instance">
+                <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+        </div>
+
+            <!-- Long image div5 -->
+
+    <div class="long_img">
+        <div id="title_block"><h2>Top Picks for India</h2></div>
+        <div class="img_block">
+             <div id="long_boximg_1" style="background-image: url('long_box_1.png');"></div>
+             <div id="long_boximg_2" style="background-image: url('long_box_2.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_3.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_4.png');"></div>
+             <div id="long_boximg_5" style="background-image: url('long_box_5.png');"></div>
+             <div id="long_boximg_6" style="background-image: url('long_box_6.png');"></div>
+        </div>
+    </div>
+
+        <!-- Long image div6 -->
+
+    <div class="long_img">
+        <div id="title_block"><h2>Top Picks for India</h2></div>
+        <div class="img_block">
+             <div id="long_boximg_1" style="background-image: url('long_box_1.png');"></div>
+             <div id="long_boximg_2" style="background-image: url('long_box_2.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_3.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_4.png');"></div>
+             <div id="long_boximg_5" style="background-image: url('long_box_5.png');"></div>
+             <div id="long_boximg_6" style="background-image: url('long_box_6.png');"></div>
+        </div>
+    </div>
+
+     <!-- another black card layout instance section -->
+    <div class="card_layout_outer3">    
+       <div class="card_layout_2">
+            <div class="card_instance">
+                <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                 <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+
+            <div class="card_instance">
+                 <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+            <div class="card_instance">
+                <div id="card_header">
+                    <h2>Shop Fashion for less</h2>
+                </div>
+
+                <div id="imagelabel_body">
+                   <div id="section">
+                     <div id="img" style= "background-image: url('Fashion_1.png');"><p>Jeans under $50</p></div>
+                     <div id="img" style= "background-image: url('fashion_2.png');"><p>Tops under $25</p></div>
+                   </div>
+                
+                   <div id="section">
+                     <div id="img" style= "background-image: url('fashion_3.png');"><p>Dresses under $30</p></div>
+                     <div id="img" style= "background-image: url('fashion_4.png');"><p>Shoes under $60</p></div>
+                   </div>
+                </div>
+
+                <div id="card_footer">
+                    <a>See all deals</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Long image div 7 -->
+
+    <div class="long_img">
+        <div id="title_block"><h4>Top Picks for India</h4></div>
+        <div class="img_block">
+             <div id="long_boximg_1" style="background-image: url('long_box_1.png');"></div>
+             <div id="long_boximg_2" style="background-image: url('long_box_2.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_3.png');"></div>
+             <div id="long_boximg" style="background-image: url('long_box_4.png');"></div>
+             <div id="long_boximg_5" style="background-image: url('long_box_5.png');"></div>
+             <div id="long_boximg_6" style="background-image: url('long_box_6.png');"></div>
+        </div>
+    </div>
+
+<div class="sign_in_tooltip">
+    <div id="content">
+        <div id="h2"><h2 id="sign-in-title">See personalized recommendations</h2></div>
+        <div id="sign_in_up"><button id="sign-in">Sign in</button></div>
+        <p id="newcustomer">New Customer? <a>Sign up</a></p>
+    </div>
+</div>
+</main>
+
+<footer>
+<div class="nav_footer">
+    <span id="backtotop_text">Back to top</span>
+    <div id="footer">
+     <div id="footer_links">
+     
+        <h4 id="col_head">Get to know Us</h4>
+    <ul>
+        <li id="list"><a id="nav_item">Careers</a></li>
+        <li  id="list"><a id="nav_item">Blog</a></li>
+        <li  id="list"><a id="nav_item">About Amazon</a></li>
+        <li id="list"><a id="nav_item">Public Relations</a></li>
+        <li id="list"><a id="nav_item">Amazon Devices</a></li>
+        <li id="list"><a id="nav_item">Amazon Science</a></li>
+    </ul>
+    </div>
+
+    <div id="nav_space"></div>
+
+    <div id="footer_links">
+
+        <h4 id="col_head">Make Money with Us</h4>
+        <ul>
+        <li  id="list"><a id="nav_item">Sell products on Amazon</a></li>
+        <li id="list"><a id="nav_item">Sell on Amazon Business</a></li>
+        <li id="list"><a id="nav_item">Sell apps on Amazon</a></li>
+        <li id="list"><a id="nav_item">Become an Affiliate</a></li>
+        <li id="list"><a id="nav_item">Advertise Your Products</a></li>
+        <li id="list"><a id="nav_item">Self-Publish with Us</a></li>
+        <li id="list"><a id="nav_item">Host an Amazon Hub</a></li>
+        <li id="list"><a id="nav_item">› See More Make Money with Us</a></li>
+        </ul>
+    </div>
+
+    <div id="nav_space"></div>
+
+    <div id="footer_links">
+
+        <h4 id="col_head">Amazon Payment Products</h4>
+        <ul>
+        <li id="list"><a id="nav_item">Amazon Business Card</a></li>
+        <li id="list"><a id="nav_item">Shop with Points</a></li>
+        <li id="list"><a id="nav_item">Reload Your Balance</a></li>
+        <li id="list"><a id="nav_item">Amazon Currency Converter</a></li>
+        </ul>
+    </div>
+
+    <div id="nav_space"></div>
+
+    <div id="footer_links">
+
+        <h4 id="col_head">Let Us Help You</h4>
+        <ul>
+        <li id="list"><a id="nav_item">Amazon and COVID-19</a></li>
+        <li id="list"><a id="nav_item">Your Account</a></li>
+        <li id="list"><a id="nav_item">Your Orders</a></li>
+        <li id="list"><a id="nav_item">Shipping Rates & Policies</a></li>
+        <li id="list"><a id="nav_item">Returns & Replacements</a></li>
+        <li id="list"><a id="nav_item">Manage Your Content & Devices</a></li>
+        <li id="list"><a id="nav_item">Help</a></li>
+        </ul>
+     </div>
+</div>
+    <div id="navfooter_line">
+        
+    </div>
+    <div id="navfooter_pad_item">
+        <a id="footer_logo"><img src="/Amazonlogo.png" alt="navbarlogo"></a>
+         <div id="footer_line">
+            <button id="lang"><i class="fa-solid fa-globe"></i>  English  </button>
+            <button id="currency">$ USD - U.S. Dollar</button>
+            <button id="country"><img src="/flag-icon.png">  India</button>
+        </div>
+    </div>
+    <div id="navfooter_descline">
+       
+    </div>
+    <div id="nav_footer_copyright">
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+         
+         <div id="footer_div"><li>
+            <h5>Amazon Music</h5>
+            <a id= "footer_link">stream millions of songs</a>
+        </li></div>
+
+
+    </div>
+
+<div class="final_footer">
+    <ul id="copyright_part">
+        <li id="conditions">Conditions of Use</li>
+        <li id="conditions">Privacy Notice</li>
+        <li id="conditions">Consumer Health Data Privacy Disclosure</li>
+        <li id="conditions">Your Ads Privacy Choices<i class="fa-solid fa-check"></i></li>
+    </ul>
+    <span id="affiliates"><i class="fa-regular fa-copyright"></i> 1995-2025, Amazon.com, Inc. or its affiliates</span>
+       
+</div>
+
+    
+</div>
+
+
+</footer>  
+
+
+  
+</body>
+</html>
